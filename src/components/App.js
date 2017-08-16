@@ -9,6 +9,7 @@ import Loading from 'react-loading'
 import { fetchRecipes } from '../utils/api'
 import FoodList from './FoodList'
 import ShoppingList from './ShoppingList'
+require('dotenv').config()  // https://www.npmjs.com/package/dotenv
 
 class App extends Component {
   state = {
